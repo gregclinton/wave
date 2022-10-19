@@ -23,6 +23,7 @@ let scale = {};
 
 function wave1(e, height, width) {
     let t = 0;
+    let v = 0.2;
 
     scale.x = x => x * width / (2 * Math.PI);
     scale.y = y => -y + height / 2;
@@ -31,11 +32,13 @@ function wave1(e, height, width) {
         clear(e);
         let A = 120;
         let step = 0.1;
-        let fn = x => A * Math.sin(x);
+        let fn = x => A * Math.sin(x - v * t);
 
         for (let x = 0; x < 2 * Math.PI; x += step) {
             line(e, x, fn(x), x + step, fn(x + step), 'darkblue');
         }
+
+        t += 1;
     }, 1000);
 }
 
