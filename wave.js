@@ -32,14 +32,15 @@ function wave1(e, height, width) {
     setInterval(() => {
         clear(e);
         let A = 120;
+        let B = 60;
         let step = 0.1;
-        let fn = x => A * Math.sin(x - v * t);
+        let fn = x => A * Math.sin(x - v * t) + B * (Math.cos(x - v * t));
 
         for (let x = 0; x < cycles * 2 * Math.PI; x += step) {
             line(e, x, fn(x), x + step, fn(x + step), 'darkblue');
         }
 
-        t += 1;
+        // t += 1;
     }, 1000);
 }
 
