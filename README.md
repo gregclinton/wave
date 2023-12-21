@@ -1,3 +1,29 @@
+#### dimensions
+
+| quantity | dimension
+| -------- | ---------
+| mass | M
+| distance | L
+| time | T
+| velocity | L T<sup>-1</sup>
+| acceleration | L T<sup>-2</sup>
+| momentum | M L T<sup>-1</sup>
+| force | M L T<sup>-2</sup>
+| work | M L<sup>2</sup> T<sup>-2</sup>
+| energy | M L<sup>2</sup> T<sup>-2</sup>
+| angular momentum | M L<sup>2</sup> T<sup>-1</sup>
+| $\hbar$ | M L<sup>2</sup> T<sup>-1</sup>
+| power | M L<sup>2</sup> T<sup>-3</sup>
+| pressure | M L<sup>-1</sup> T<sup>-2</sup>
+| density | M L<sup>-3</sup>
+| frequency | T<sup>-1</sup>
+| charge | A T
+| voltage | M L<sup>2</sup> T<sup>-3</sup> A<sup>-1</sup>
+| capacitance | M<sup>-1</sup> L<sup>-2</sup> T<sup>4</sup> A<sup>2</sup>
+| resistance | M L<sup>2</sup> T<sup>-3</sup> A<sup>-2</sup>
+| magnetic flux | M L<sup>2</sup> T<sup>-2</sup> A<sup>-1</sup>
+| inductance | M L<sup>2</sup> T<sup>-2</sup> A<sup>-2</sup>
+
 #### complex numbers
 
 $z = a + bi$
